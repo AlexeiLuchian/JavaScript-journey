@@ -7,5 +7,4 @@ console.log(currentDir);
 const permanentStorageDir = HOME_DIR;
 console.log(permanentStorageDir);
 
-currentDir = "/";
 console.log(currentDir);

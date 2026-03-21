@@ -1,3 +1,2 @@
-let b;
+let b = 123;
 console.log(b);
-b = 123;

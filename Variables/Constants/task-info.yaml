@@ -12,11 +12,14 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 0iV8NCCPfPrcuz8qxwUXSg==
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
     learner_created: false
   - name: test/test.js
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 21 Mar 2026 23:02:56 UTC"
 record: -1

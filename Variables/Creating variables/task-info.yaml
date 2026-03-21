@@ -3,8 +3,8 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 93
-        length: 19
+      - offset: 0
+        length: 51
         placeholder_text: // Make change here
         initial_state:
           length: 19
@@ -12,10 +12,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: FeegQ51xb2EEe6faFZeWwg==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/test.js
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 21 Mar 2026 22:55:58 UTC"
 record: -1
