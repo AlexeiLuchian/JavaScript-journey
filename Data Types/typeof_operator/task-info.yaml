@@ -8,17 +8,17 @@ files:
     visible: true
     placeholders:
       - offset: 223
-        length: 10
+        length: 6
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 223
         initialized_from_dependency: false
         encrypted_possible_answer: 8+eRx2GIxcJvV0fa5oyX4w==
-        selected: false
-        status: Unchecked
-      - offset: 311
-        length: 10
+        selected: true
+        status: Solved
+      - offset: 307
+        length: 6
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -26,9 +26,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 8+eRx2GIxcJvV0fa5oyX4w==
         selected: false
-        status: Unchecked
-      - offset: 389
-        length: 10
+        status: Solved
+      - offset: 381
+        length: 6
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -36,7 +36,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 8+eRx2GIxcJvV0fa5oyX4w==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 22 Mar 2026 21:41:53 UTC"
 record: -1

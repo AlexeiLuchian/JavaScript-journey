@@ -5,7 +5,7 @@ files:
     visible: true
     placeholders:
       - offset: 244
-        length: 10
+        length: 5
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -13,9 +13,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 7vQHDauFrBEfwdEtLYqGyQ==
         selected: false
-        status: Unchecked
-      - offset: 353
-        length: 10
+        status: Solved
+      - offset: 347
+        length: 13
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -23,9 +23,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 66oH54tguKj/XkNUTD78Ww==
         selected: false
-        status: Unchecked
-      - offset: 463
-        length: 10
+        status: Solved
+      - offset: 459
+        length: 5
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -33,8 +33,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: B32H4xjFtl8yhKC200kQ5w==
         selected: false
-        status: Unchecked
-      - offset: 576
+        status: Solved
+      - offset: 566
         length: 10
         placeholder_text: /* TODO */
         initial_state:
@@ -43,9 +43,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: HFJovQOcAsRgpwM2O2yh9w==
         selected: false
-        status: Unchecked
-      - offset: 686
-        length: 10
+        status: Solved
+      - offset: 675
+        length: 5
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -53,9 +53,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: mZCQHaR1EO1Wt2xOGzYRPA==
         selected: false
-        status: Unchecked
-      - offset: 795
-        length: 10
+        status: Solved
+      - offset: 778
+        length: 25
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -63,10 +63,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: DcyKTaEzEUaZ7/IISG9C6SP17Zs4t8MaRShNbFMcVp0=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/test.js
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 22 Mar 2026 21:45:30 UTC"
 record: -1
