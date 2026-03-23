@@ -3,8 +3,8 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 74
-        length: 64
+      - offset: 75
+        length: 17
         placeholder_text: // Add a "price" property to the car object with a value of
           9250
         initial_state:
@@ -12,10 +12,10 @@ files:
           offset: 74
         initialized_from_dependency: false
         encrypted_possible_answer: R1I24Pww2GCq8w/eJu7LRJDHJhw81oTaJkE5P1QKn9U=
-        selected: false
-        status: Unchecked
-      - offset: 139
-        length: 68
+        selected: true
+        status: Solved
+      - offset: 91
+        length: 70
         placeholder_text: // Add a "currency" property to the car object with a value
           of "USD"
         initial_state:
@@ -24,8 +24,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: EsP0Bm61d9AuYMQNEq7FlBbrZDwkc8eMpcrl7UXIXJc=
         selected: false
-        status: Unchecked
-      - offset: 208
+        status: Solved
+      - offset: 184
         length: 50
         placeholder_text: // Delete the "owner" property from the car object
         initial_state:
@@ -34,10 +34,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 42eI2owXKG32iEFG6Bi2wybgAHGGxLRlq4uI8jnVAwQ=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/test.js
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 23 Mar 2026 15:12:39 UTC"
 record: -1

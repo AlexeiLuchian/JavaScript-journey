@@ -8,7 +8,9 @@ console.log(colors[1]);  // prints "purple"
 colors[4] = "pink";      // adds a new element to the array
 console.log(colors);     // [ 'red', 'purple', 'green', 'yellow', 'pink' ]
 
-// Add "brown" to the end of colors array
+
+colors[5] = "brown";
 // Add "black" to the end of colors array
+colors[6] = "black";
 
 console.log(colors);     // should be [ 'red', 'purple', 'green', 'yellow', 'pink', 'brown', 'black' ]
