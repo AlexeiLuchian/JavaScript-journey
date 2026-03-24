@@ -1,7 +1,7 @@
 let data = {
-    a: ???,
-    b: ???,
-    c: ???
+    a: null,
+    b: -2,
+    c: "",
 };
 
 console.log(!!(data.a || data.b));  // should be true
