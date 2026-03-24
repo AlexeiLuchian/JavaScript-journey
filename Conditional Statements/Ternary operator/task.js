@@ -1,3 +1,3 @@
 let n = -20;
-let nAbs = ???;
+let nAbs = n >= 0 ? n : -n;
 console.log(nAbs);
