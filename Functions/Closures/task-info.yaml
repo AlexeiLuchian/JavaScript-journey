@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 127
-        length: 34
+        length: 12
         placeholder_text: /* check the temperature format */
         initial_state:
           length: 34
@@ -12,20 +12,23 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: SlLbovKeGeLYEg4BpdTWyQ==
         selected: false
-        status: Unchecked
-      - offset: 218
-        length: 33
+        status: Solved
+      - offset: 196
+        length: 68
         placeholder_text: // generate string for Fahrenheit
         initial_state:
           length: 33
           offset: 218
         initialized_from_dependency: false
         encrypted_possible_answer: QV6NBBTZshjy0PTUlnjZbGKknJvwmrXCJbO9MUpAUtPm2vcBBnoL0UQZFyZxr8c/GDdqBboygpY3E9kbweKRq2aFdWme5AIe5RAeiczaO8M=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: test/test.js
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 25 Mar 2026 12:39:31 UTC"
 record: -1
