@@ -2,7 +2,9 @@ let subscription = {
     service: "music",
     month: 6,
     pricePerMonth: 12.5,
-    // Implement the valueOf() method here
+    valueOf() {
+        return this.pricePerMonth * this.month;
+    }
 }
 
 let budget = 1000;

@@ -4,8 +4,8 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 183
-        length: 25
+      - offset: 235
+        length: 0
         placeholder_text: /* solve the task here */
         initial_state:
           length: 25
@@ -13,10 +13,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: NZTcfsX8J4RrPePGQtiwWzgVXQUlYIslq8T06Fdava0zkFvNccStyruWOcge5hmmQFtlKYoAuDJ8GhRdL6rjqg==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/test.js
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Mar 2026 10:17:11 UTC"
 record: -1

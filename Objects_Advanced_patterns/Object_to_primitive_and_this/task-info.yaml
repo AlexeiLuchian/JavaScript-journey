@@ -5,18 +5,21 @@ files:
     visible: true
     placeholders:
       - offset: 86
-        length: 38
+        length: 65
         placeholder_text: // Implement the valueOf() method here
         initial_state:
           length: 38
           offset: 86
         initialized_from_dependency: false
         encrypted_possible_answer: aoPJscWw31EvtyuQWYkojj6C8acub2QDJOKLmcXTUSQShVJ1E/1orgZFl5OPZbcLDaHmsutjAGcoLXG0gB83V+d/yzieW+clYLSC5ovM/bk=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: test/test.js
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Mar 2026 10:08:48 UTC"
 record: -1
