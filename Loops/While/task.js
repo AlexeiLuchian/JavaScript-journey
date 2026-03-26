@@ -1,8 +1,11 @@
 function gcd(a, b) {
-    while (/* add a condition here */) {
-        // implement the Euclidean algorithm
+    let t;
+    while (b !== 0) {
+        t = b;
+        b = a % b;
+        a  = t;
     }
-    // return the result
+    return a;
 }
 
 console.log(gcd(10, 5));  // 5

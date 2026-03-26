@@ -1,9 +1,21 @@
 function maxNegRow(matrix){
-    // declare an array to store the negative numbers from each row
+    let negNums = [];
 
-    // find the first negative number for each row and store it in the array declared earlier
+    for (let row of matrix) {
+        for (let elem of row) {
+            if (elem < 0) {
+                negNums.push(elem);
+                break;
+            }
+        }
+    }
 
-    // find the maximum among the stored numbers and return it as the result
+    let maxNeg = negNums[0];
+    for (let num of negNums) {
+        if (num > maxNeg) maxNeg = num;
+    }
+
+    return maxNeg;
 }
 
 let matrix = [

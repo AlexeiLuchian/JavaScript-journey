@@ -5,17 +5,17 @@ files:
     visible: true
     placeholders:
       - offset: 30
-        length: 51
+        length: 19
         placeholder_text: "// save the array[0] element to the maxVal variable"
         initial_state:
           length: 51
           offset: 30
         initialized_from_dependency: false
         encrypted_possible_answer: c78SwTEhFtYeEAe8Z6SsOQKt8NqZdm9OaJdPs9N5dzc=
-        selected: false
-        status: Unchecked
-      - offset: 87
-        length: 33
+        selected: true
+        status: Solved
+      - offset: 55
+        length: 87
         placeholder_text: // compare all elements to maxVal
         initial_state:
           length: 33
@@ -23,9 +23,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: NPYX7Dg77gwHRmqmYfahZGoLOYLb9WxiqPgUE1BbshzCjS3MnBmbLJ8AxMGXhEn/FdOVXnHA6NuZlt/VBRsX9Q48VYIgJBEU14/RHcaqpAKRwuZb7EDaMWezQKnSwaB9
         selected: false
-        status: Unchecked
-      - offset: 126
-        length: 36
+        status: Solved
+      - offset: 148
+        length: 11
         placeholder_text: // don't forget to return the result
         initial_state:
           length: 36
@@ -33,10 +33,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: hLZB22iQorFGb1QvdC6geA==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/test.js
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Mar 2026 09:23:19 UTC"
 record: -1

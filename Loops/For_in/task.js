@@ -1,9 +1,13 @@
-function medalsFilter(/* add parameters here */) {
+function medalsFilter(medals, count) {
     let result = [];  // array for keys that satisfy the condition
 
-    // use a for..in loop to iterate over the keys of the medals object
+    for (let country in medals) {
+        if (medals[country] > count) {
+            result.push(country);
+        }
+    }
 
-    // don't forget to return the result
+    return result;
 }
 
 let medals = {
