@@ -6,7 +6,11 @@ function generateNumbersPromise() {
 
 function summarizeNumbers(numbersPromise) {
   return numbersPromise.then(function (numbers) {
-    // Calculate the sum and return it as the result
+    let sum = 0;
+    for (let num of numbers) {
+      sum += num;
+    }
+    return sum;
   });
 }
 

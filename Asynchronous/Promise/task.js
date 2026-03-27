@@ -1,6 +1,8 @@
 function delayedGreeter(name) {
   return new Promise((resolve, reject) => {
-    // Implement a `name` validation here
+    if (!name) {
+      reject(new Error("Name is required"));
+    }
     setTimeout(() => resolve(`Hello, ${name}`), 1000);
   });
 }
