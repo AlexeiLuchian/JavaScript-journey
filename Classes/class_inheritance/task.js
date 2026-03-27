@@ -11,11 +11,12 @@ class Vehicle {
 
 class Truck extends Vehicle {
     constructor(brand, year, payload) {
-        // remember to call base class constructor
+        super(brand, year);
+        this.payload = payload;
     }
 
     getPayload() {
-        // return payload value
+        return this.payload;
     }
 }
 

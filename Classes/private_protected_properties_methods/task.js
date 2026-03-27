@@ -6,11 +6,13 @@ class Vehicle {
     }
 
     set fuel(value) {
-        // add implementation with range check here
+        if (value >= 0 && value <= Vehicle.fuelCapacity) {
+            this._fuel = value;
+        }
     }
 
     get fuel() {
-        // add implementation here
+        return this._fuel;
     }
 }
 

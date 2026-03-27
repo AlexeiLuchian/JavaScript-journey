@@ -5,28 +5,31 @@ files:
     visible: true
     placeholders:
       - offset: 263
-        length: 42
+        length: 51
         placeholder_text: // remember to call base class constructor
         initial_state:
           length: 42
           offset: 263
         initialized_from_dependency: false
         encrypted_possible_answer: L/oVff3u+x0wMV+CnG4QW6wb/ylHuxIGfKjr4wZZUab6I/2mE6AsOPASmxgZ6DhT3zWZSQa4omoaFsFfC4cbyA==
-        selected: false
-        status: Unchecked
-      - offset: 340
-        length: 23
+        selected: true
+        status: Solved
+      - offset: 349
+        length: 20
         placeholder_text: // return payload value
         initial_state:
           length: 23
           offset: 340
         initialized_from_dependency: false
         encrypted_possible_answer: KsvBdqlUbxs/0Q2jwPALnIN7jI2uDZjwjdQ3pNexjU4=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: test/test.js
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 27 Mar 2026 07:18:06 UTC"
 record: -1

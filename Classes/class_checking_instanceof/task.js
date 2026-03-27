@@ -26,12 +26,15 @@ class LabHead extends Professor {
     }
 
     intro() {
-        // implement method here
+        return super.intro() + " Head of " + this.labName + " lab.";
     }
 }
 
 function professorsPresenter(professor) {
-    // implement function with instanceof check here
+    if (professor instanceof Professor) {
+        return professor.intro();
+    }
+    return null;
 }
 
 let employee = new Employee("John Smith");

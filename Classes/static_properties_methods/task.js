@@ -1,6 +1,6 @@
 class Point{
 
-    // add static property here
+    static coordinateSystem = "cartesian";
 
     constructor(x, y) {
         this.x = x;

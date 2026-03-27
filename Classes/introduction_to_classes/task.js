@@ -1,10 +1,11 @@
 class Point{
     constructor(x, y) {
-        // save coordinates into the attributes
+        this.x = x;
+        this.y = y;
     }
 
     distanceFromOrigin() {
-        // return distance to the origin
+        return Math.sqrt(this.x * this.x + this.y * this.y);
     }
 }
 
