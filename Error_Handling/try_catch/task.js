@@ -16,8 +16,11 @@ class Flight {
 function flightBoardPresenter(elements) {
     let result = ""
     for (const e of elements) {
-        // Place the following line in the try block.
-        result += `${e.getDeparture()} - ${e.getDestination()}\n`;
+        try {
+            result += `${e.getDeparture()} - ${e.getDestination()}\n`;
+        } catch {
+            result += "--- - ---\n";
+        }
     }
     return result;
 }

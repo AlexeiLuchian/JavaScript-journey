@@ -1,5 +1,7 @@
 function greeting(person) {
-   // Check `person` for "name" and "surname" attributes.
+   if (person.name === undefined || person.surname === undefined) {
+       return "Hello, stranger!"
+   }
    return `Hello, ${person.name} ${person.surname}!`;
 }
 
